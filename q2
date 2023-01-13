@@ -1,0 +1,12 @@
+gross_income=int(input("Enter gross income: "))
+std_ded=10000
+numb_dep=int(input("Number of dependent: "))
+dep_ded=3000
+Tax_inc=gross_income-std_ded-(dep_ded*numb_dep)
+Tax=Tax_inc/5
+print("Taxable Income: ",Tax_inc)
+print("Tax: ",Tax)
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
