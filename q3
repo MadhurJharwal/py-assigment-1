@@ -1,0 +1,4 @@
+seconds=int(input("enter seconds"))
+rem_sec=seconds%60
+minutes=(seconds//60)
+print("it will be",minutes,"minutes and",rem_sec,"seconds")
